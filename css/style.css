@@ -39,9 +39,10 @@ h5 {
 }
 
 a {
-  letter-spacing: 2px;
+  
   text-decoration: none;
   color: #FDBF28;
+  font-size: 16px;
 }
 a:hover {
   color: #626262;
@@ -1009,7 +1010,11 @@ span {
   transition: 0.3s;
 }
 #contact .social-links a:hover {
-  background: #55b03f;
+  background: blue;
+  color: #fff;
+}
+#contact .social-links a.instagram:hover {
+  background: purple;
   color: #fff;
 }
 #contact .php-email-form .validate {
@@ -1033,7 +1038,7 @@ span {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #2c2c2c;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1101,14 +1106,14 @@ span {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: rgb(126, 126, 126);
+  background: rgb(150, 150, 150);
   padding-top: 50px;
 }
 .footer .footer-logo .navbar-brand {
   color: #fff;
   display: inline-block;
   float: none;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 500;
   height: 100%;
@@ -1125,10 +1130,8 @@ span {
   color: #fff;
   padding-bottom: 20px;
 }
-.footer .list-menu ul li a {
-  color: #fff;
-  font-size: 12px;
-  
+.footer .list-menu b a:hover {
+  color: rgb(58, 58, 238);
   text-decoration: none;
   letter-spacing: 0;
 }
@@ -1150,8 +1153,6 @@ span {
   letter-spacing: 0;
   color: #FDBF28;
 }
-
-
 
 .svg-turkiye-haritasi {
   max-width: 1140px;
