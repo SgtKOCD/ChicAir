@@ -58,7 +58,7 @@ li {
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 30px;
-  text-transform: capitalize;
+ 
 }
 
 p {
@@ -435,7 +435,7 @@ span {
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
-  /*text-transform: capitalize;*/
+  
   transition: 0.3s;
 }
 #get-started .feature-block a:hover {
@@ -461,7 +461,7 @@ span {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  
 }
 #about-us .about-content span {
   font-weight: 700;
